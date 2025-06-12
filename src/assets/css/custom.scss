@@ -1,0 +1,124 @@
+$theme-colors: (
+  "primary": #2089cd,
+  "secondary": #47c9bb,
+  "success": #4dd470,
+  "danger": #e63946,
+  "warning": #f4a261,
+  "info": #00b4d8,
+  "light": #EFF3F6,
+  "dark": #264653,
+  "white": #ffffff,
+  "dark-50": #d9e1ec,
+  "label": #5a607f,
+  "hr": #f0f0f0,
+);
+
+.btn-primary {
+  color: map-get($theme-colors, "white") !important;
+}
+
+.btn-outline-danger:hover {
+  color: map-get($theme-colors, "white") !important;
+}
+
+.btn-outline-primary:hover {
+  color: map-get($theme-colors, "white") !important;
+}
+
+.btn-150 {
+  width: 150px !important;
+}
+
+
+.btn-danger {
+  color: map-get($theme-colors, "white") !important;
+}
+
+.btn-cancel-del {
+  color: map-get($theme-colors, "dange") !important;
+  outline: 1px solid map-get($theme-colors, "danger") !important;
+}
+
+.text-cancel:hover {
+  color: map-get($theme-colors, "white") !important;
+}
+
+.form-control,
+.form-select {
+  border: 1px solid map-get($theme-colors, "dark-50") !important;
+  padding: 10px 12px !important;
+}
+.input-field .form-select {
+  border-radius: 24px !important;
+}
+
+.form-check-input:checked {
+  background-color: map-get($theme-colors, "primary" )!important;
+  border-color:map-get($theme-colors, "primary") !important;
+}
+
+.form-control:focus,
+.form-select:focus {
+  box-shadow: none !important;
+}
+
+.form-control::placeholder {
+  color: map-get($theme-colors, "dark") !important;
+  font-size: 15px !important;
+}
+.input-field .form-control {
+  border-radius: 24px !important;
+}
+
+.btn-secondary {
+  background-color: map-get($theme-colors, "secondary") !important;
+}
+
+.form-label {
+  color: map-get($theme-colors, "label") !important;
+}
+
+.form-check-label{
+  color: map-get($theme-colors, "label") !important;
+}
+
+.custom-link {
+  color: map-get($theme-colors, "primary") !important;
+  cursor: pointer;
+  text-decoration: none !important;
+}
+
+.text-form {
+  color: map-get($theme-colors, "label") !important;
+}
+
+.custom-link:hover {
+  text-decoration: underline !important;
+  text-decoration-color: map-get($theme-colors, "primary") !important;
+}
+
+.btn-secondary {
+  color: map-get($theme-colors, "primary") !important;
+}
+
+.hr {
+  color: map-get($theme-colors, "hr") !important;
+}
+
+.shadow {
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.25) !important;
+}
+
+.sidebar-admin {
+  font-size: 18px !important;
+}
+
+.bg-primary {
+  background-color: map-get($theme-colors, "primary") !important;
+}
+
+.rounded-14 {
+  border-radius: 5px !important;
+}
+
+@import "bootstrap/scss/bootstrap";
